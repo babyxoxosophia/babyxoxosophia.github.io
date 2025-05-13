@@ -1,0 +1,73 @@
+---
+layout: post
+title:  Movie – Anaganaga O Prema Katha
+date:   2018-11-11 15:01:35 +0300
+image:  '/images/04.jpg'
+categories: [Movies]
+---
+
+I was invited to represent Anaganaga O Prema Katha at its official press meet, engaging with media and fans during the film's launch. As part of the core cast, I spoke about the creative journey behind the project and shared insights into my role, helping generate buzz ahead of its release. This public-facing engagement strengthened the film's promotional campaign and highlighted my experience with high-visibility media events.
+
+<style>
+.image-gallery {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 24px;
+  margin: 2em 0;
+}
+.image-gallery img {
+  border-radius: 12px;
+  box-shadow: 0 4px 16px rgba(0,0,0,0.08);
+  max-width: 100%;
+  width: 350px;
+  height: auto;
+  transition: box-shadow 0.2s;
+}
+.image-gallery img:hover {
+  box-shadow: 0 8px 32px rgba(0,0,0,0.16);
+}
+@media (max-width: 800px) {
+  .image-gallery {
+    flex-direction: column;
+    align-items: center;
+    gap: 16px;
+  }
+  .image-gallery img {
+    width: 98vw;
+    min-width: 0;
+  }
+}
+.video-gallery {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 40px;
+  margin: 2em 0;
+}
+</style>
+
+<h3 style="text-align:center; margin-top:2em;">Videos</h3>
+<div class="video-gallery">
+  <!-- <div class="video-container">
+    <iframe src="https://www.youtube.com/embed/FJhSnCSRtXM" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+  </div> -->
+  <div class="video-container">
+    <iframe src="https://www.youtube.com/embed/4do4zp2s5yo" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+  </div>
+  <div class="video-container">
+    <iframe src="https://www.youtube.com/embed/RwbbGZAXpcE" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+  </div>
+  <div class="video-container">
+    <iframe src="https://www.youtube.com/embed/bN0db6EqmdE" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+  </div>
+</div>
+
+<h3 style="text-align:center; margin-top:2em;">Gallery</h3>
+<div class="image-gallery">
+  <img src="/images/38.jpg" alt="Anaganaga O Prema Katha - Image 1">
+  <img src="/images/39.jpg" alt="Anaganaga O Prema Katha - Image 2">
+  <img src="/images/40.jpg" alt="Anaganaga O Prema Katha - Image 3">
+</div>
+
+

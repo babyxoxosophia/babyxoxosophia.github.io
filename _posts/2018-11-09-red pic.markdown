@@ -1,9 +1,0 @@
----
-layout: post
-title: 
-
-date:   2018-11-09 15:01:35 +0300
-image:  '/images/06.jpg'
-categories:   [Lifestyle, Rest]
-
-“I’ve always aspired to be of value rather than simply chase success. For me, true fulfillment lies in making meaningful contributions, uplifting others, and leaving a lasting impact—not just in what I do, but in how I do it.”

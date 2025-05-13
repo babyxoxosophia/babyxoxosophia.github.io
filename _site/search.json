@@ -4,13 +4,13 @@
       "title"    : "B&amp;B Hair Studio – Princeton, NJ",
       "category" : "",
       "tags"     : "",
-      "url"      : "/B&B/",
+      "url"      : "/b-and-b-hair-studio/",
       "date"     : "Nov 13, 2018",
       "image"    : "/images/02.jpg"
     } ,
   
     {
-      "title"    : "Daily TV Serial – Zee Telugu (Zee Pvt Ltd, India)",
+      "title"    : "TV Serial – Zee Telugu (Zee Pvt Ltd, India)",
       "category" : "",
       "tags"     : "",
       "url"      : "/BRINDAVANAM/",
@@ -19,111 +19,12 @@
     } ,
   
     {
-      "title"    : "Press Meet Appearance – Anaganaga O Prema Katha",
+      "title"    : "Movie – Anaganaga O Prema Katha",
       "category" : "",
       "tags"     : "",
-      "url"      : "/If-you-cannot-do-great-things-do-small-things-in-a-great-way/",
+      "url"      : "/anagha/",
       "date"     : "Nov 11, 2018",
       "image"    : "/images/04.jpg"
-    } ,
-  
-    {
-      "title"    : "Strive not to be a success, but rather to be of value",
-      "category" : "",
-      "tags"     : "",
-      "url"      : "/nee-prema/",
-      "date"     : "Nov 10, 2018",
-      "image"    : "/images/05.jpg"
-    } ,
-  
-    {
-      "title"    : "A journey of a thousand leagues begins beneath one’s feet",
-      "category" : "",
-      "tags"     : "",
-      "url"      : "/red-pic/",
-      "date"     : "Nov 9, 2018",
-      "image"    : "/images/06.jpg"
-    } ,
-  
-    {
-      "title"    : "Life shrinks or expands in proportion to one’s courage",
-      "category" : "",
-      "tags"     : "",
-      "url"      : "/swarnajewels/",
-      "date"     : "Nov 8, 2018",
-      "image"    : "/images/07.jpg"
-    } ,
-  
-    {
-      "title"    : "Embracing the Journey of Growth",
-      "category" : "",
-      "tags"     : "",
-      "url"      : "/embracing-the-journey-of-growth/",
-      "date"     : "Nov 8, 2018",
-      "image"    : ""
-    } ,
-  
-    {
-      "title"    : "What you do speaks so loudly that I cannot hear what you say",
-      "category" : "",
-      "tags"     : "",
-      "url"      : "/What-you-do-speaks-so-loudly-that-I-cannot-hear-what-you-say/",
-      "date"     : "Nov 7, 2018",
-      "image"    : "/images/08.jpg"
-    } ,
-  
-    {
-      "title"    : "You must be the change you wish to see in the world",
-      "category" : "",
-      "tags"     : "",
-      "url"      : "/You-must-be-the-change-you-wish-to-see-in-the-world/",
-      "date"     : "Nov 6, 2018",
-      "image"    : "/images/16.jpg"
-    } ,
-  
-    {
-      "title"    : "Believe and act as if it were impossible to fail",
-      "category" : "",
-      "tags"     : "",
-      "url"      : "/Believe-and-act-as-if-it-were-impossible-to-fail/",
-      "date"     : "Nov 5, 2018",
-      "image"    : "/images/10.jpg"
-    } ,
-  
-    {
-      "title"    : "The way I see it, every life is a pile of good things",
-      "category" : "",
-      "tags"     : "",
-      "url"      : "/the-way-i-see-it-every-life-is-a-pile-of-good-things/",
-      "date"     : "Oct 31, 2018",
-      "image"    : "/images/19.jpg"
-    } ,
-  
-    {
-      "title"    : "Everything has beauty, but not everyone can see",
-      "category" : "",
-      "tags"     : "",
-      "url"      : "/Everything-has-beauty-but-not-everyone-can-see/",
-      "date"     : "May 29, 2018",
-      "image"    : "/images/18.jpg"
-    } ,
-  
-    {
-      "title"    : "Remember that happiness is a way of travel, not a destination",
-      "category" : "",
-      "tags"     : "Life and Travels",
-      "url"      : "/Remember-that-happiness-is-a-way-of-travel-not-a-destination/",
-      "date"     : "Apr 24, 2018",
-      "image"    : "/images/15.jpg"
-    } ,
-  
-    {
-      "title"    : "It is never too late to be what you might have been",
-      "category" : "",
-      "tags"     : "",
-      "url"      : "/It-i-never-too-late-to-be-what-you-might-have-been/",
-      "date"     : "Apr 21, 2018",
-      "image"    : "/images/22.jpg"
     } 
   
 ]
