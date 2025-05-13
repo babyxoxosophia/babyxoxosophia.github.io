@@ -85,7 +85,7 @@ DEPENDENCIES
   bigdecimal
   bundler
   csv
-  jekyll (= 4.4.1)
+  jekyll
   jekyll-paginate
   jekyll-sitemap
   jekyll-tagging
