@@ -1,0 +1,10 @@
+---
+layout: post
+title:  B&B Hair Studio – Princeton, NJ
+date:   2018-11-13 15:01:35 +0300
+image:  '/images/02.jpg'
+# video:  'https://www.youtube.com/embed/Um-15gm9eaA'
+categories:   [Modelling]
+---
+
+I partnered with B&B Hair Studio to showcase their haircut and styling services through a natural, lifestyle-focused shoot. The experience was all about highlighting their personalized approach and welcoming atmosphere. Content from this session was shared on social media to help reflect the salon’s modern, client-first vibe—perfect for audiences looking for a fresh, stylish cut in Princeton.
