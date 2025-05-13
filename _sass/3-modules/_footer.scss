@@ -277,3 +277,23 @@
     }
   }
 }
+
+.category__cloud .article__tag {
+  color: #fff !important;
+  background-color: #17181e !important;
+  border: none;
+  box-shadow: none;
+  font-size: 12px;
+  height: 30px;
+  line-height: 30px;
+  padding: 0 15px;
+  border-radius: 3px;
+  margin: 0 4px 4px 0;
+  text-transform: capitalize;
+  display: inline-block;
+  transition: background 0.2s, color 0.2s;
+}
+.category__cloud .article__tag:hover {
+  color: #17181e !important;
+  background-color: #ffe66a !important;
+}

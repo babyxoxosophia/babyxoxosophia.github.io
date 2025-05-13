@@ -6,7 +6,6 @@
         <div class="widget-box">
           <div class="row">
 
-            {% if site.tags.size >= 1 %}
             <div class="col col-4 col-d-6 col-t-12">
               <div class="widget widget-about">
                 <div class="widget__head">
@@ -14,16 +13,18 @@
                 </div>
                 <p class="about__desc">{{site.author.description}}</p>
               </div>
-              <div class="widget widget-tags">
+              <div class="widget widget-categories">
                 <div class="widget__head">
-                  <h4 class="widget__title">Tags</h4>
+                  <h4 class="widget__title">Categories</h4>
                 </div>
-                <div class="tag__cloud">
-                  {{ site | tag_cloud }}
+                <div class="category__cloud" style="display: flex; flex-wrap: wrap; gap: 8px;">
+                  {% assign all_categories = site.categories | sort %}
+                  {% for category in all_categories %}
+                    <a href="/category/{{ category[0] | slugify }}/" class="article__tag">{{ category[0] }}</a>
+                  {% endfor %}
                 </div>
               </div>
             </div>
-            {% endif %}
 
             <div class="col col-4 col-d-6 col-t-12">
               <div class="widget widget-recent">

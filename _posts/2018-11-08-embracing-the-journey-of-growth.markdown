@@ -3,7 +3,7 @@ layout: post
 title:  Embracing the Journey of Growth
 date:   2018-11-08 15:01:35 +0300
 video:  'https://www.youtube.com/embed/Um-15gm9eaA'
-tags:   [Growth, Inspiration]
+categories:   [Growth, Inspiration]
 ---
 Life is a continuous journey of growth and transformation. Each day presents us with new opportunities to learn, evolve, and become better versions of ourselves. The path to personal development is not always easy, but it is always worth it.
 
