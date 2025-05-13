@@ -79,11 +79,12 @@
 
 .image-box {
   background: $light-gray;
+  margin-bottom: 30px;
 }
 
 .post-image {
   display: block;
-  margin-bottom: 30px;
+  margin-bottom: 0;
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
@@ -96,6 +97,10 @@
       padding-top: 65%;
     }
   }
+}
+
+.image-box .video-container {
+  margin-bottom: 0;
 }
 
 /* Share */
@@ -247,4 +252,20 @@
       margin-left: auto;
     }
   }
+}
+
+.video-container {
+  position: relative;
+  width: 100%;
+  padding-bottom: 56.25%; /* 16:9 aspect ratio */
+  height: 0;
+  overflow: hidden;
+}
+.video-container iframe {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  border: 0;
 }

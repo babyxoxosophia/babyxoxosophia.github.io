@@ -10,28 +10,56 @@
 
 .article__image {
   position: relative;
-  display: inline-block;
+  display: block;
   background-color: $light-gray;
-  &:hover {
-    &:after {
-      transition: .4s ease-in-out;
-      opacity: 1;
-      visibility: visible;
-    }
-  }
-  &:after {
-    content: "";
-    display: block;
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    background-color: rgba(0, 0, 0, 0.15);
-    transition: .4s ease-in-out;
-    opacity: 0;
-    visibility: hidden;
-  }
+  overflow: hidden;
+}
+
+.thumb-wrapper {
+  position: relative;
+  width: 100%;
+  padding-top: 133.33%; /* 3:4 aspect ratio, match your image cards */
+  overflow: hidden;
+}
+
+.thumb-wrapper img {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  display: block;
+}
+
+.thumb-wrapper .play-button {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 48px;
+  height: 48px;
+  background: rgba(0,0,0,0.6);
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  z-index: 2;
+  transition: background 0.2s;
+}
+
+.thumb-wrapper:hover .play-button {
+  background: #e52d27;
+}
+
+.play-button:after {
+  content: '';
+  display: block;
+  width: 0;
+  height: 0;
+  border-left: 18px solid #fff;
+  border-top: 12px solid transparent;
+  border-bottom: 12px solid transparent;
 }
 
 .article__content {

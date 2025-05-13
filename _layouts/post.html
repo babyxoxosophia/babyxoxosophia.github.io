@@ -29,7 +29,15 @@ layout: default
 <article class="post fadein">
   <div class="container">
     <div class="row">
-      {% if page.image %}
+      {% if page.video %}
+      <div class="col col-12 col-d-10 push-d-1 col-m-12 push-m-0">
+        <div class="image-box">
+          <div class="video-container">
+            <iframe width="560" height="315" src="{{page.video}}" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+          </div>
+        </div>
+      </div>
+      {% elsif page.image %}
       <div class="col col-12 col-d-10 push-d-1 col-m-12 push-m-0">
         <div class="image-box">
           <div class="post-image" style="background-image: url({{site.baseurl}}{{page.image}})"></div>
@@ -72,7 +80,12 @@ layout: default
         <div class="post__navigation">
           {% if page.previous.url %}
             <div class="prev">
-              <a class="prev__image" href="{{page.previous.url}}" style="background-image: url({{site.baseurl}}{{page.previous.image}})"></a>
+              {% if page.previous.video %}
+                {% assign prev_yt_id = page.previous.video | split: '/' | last %}
+                <a class="prev__image" href="{{page.previous.url}}" style="background-image: url('https://img.youtube.com/vi/{{prev_yt_id}}/maxresdefault.jpg')"></a>
+              {% elsif page.previous.image %}
+                <a class="prev__image" href="{{page.previous.url}}" style="background-image: url({{site.baseurl}}{{page.previous.image}})"></a>
+              {% endif %}
               <div class="prev__box">
                 <a class="post__nav post__nav__prev" href="{{page.previous.url}}"><i class="ion ion-ios-arrow-back"></i> Previous Page</a>
                 <h4 class="post__nav__title"><a href="{{page.previous.url}}">{{page.previous.title}}</a></h4>
@@ -81,13 +94,18 @@ layout: default
           {% endif %}
 
           {% if page.next.url %}
-          <div class="next">
-            <a class="next__image" href="{{page.next.url}}" style="background-image: url({{site.baseurl}}{{page.next.image}})"></a>
-            <div class="next__box">
-              <a class="post__nav post__nav__next" href="{{page.next.url}}">Next Page <i class="ion ion-ios-arrow-forward"></i></a>
-              <h4 class="post__nav__title"><a href="{{page.next.url}}">{{page.next.title}}</a></h4>
+            <div class="next">
+              {% if page.next.video %}
+                {% assign next_yt_id = page.next.video | split: '/' | last %}
+                <a class="next__image" href="{{page.next.url}}" style="background-image: url('https://img.youtube.com/vi/{{next_yt_id}}/maxresdefault.jpg')"></a>
+              {% elsif page.next.image %}
+                <a class="next__image" href="{{page.next.url}}" style="background-image: url({{site.baseurl}}{{page.next.image}})"></a>
+              {% endif %}
+              <div class="next__box">
+                <a class="post__nav post__nav__next" href="{{page.next.url}}">Next Page <i class="ion ion-ios-arrow-forward"></i></a>
+                <h4 class="post__nav__title"><a href="{{page.next.url}}">{{page.next.title}}</a></h4>
+              </div>
             </div>
-          </div>
           {% endif %}
         </div>
 
