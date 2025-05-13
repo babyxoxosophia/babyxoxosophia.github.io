@@ -1,15 +1,6 @@
 [
   
     {
-      "title"    : "Embracing the Journey of Growth",
-      "category" : "",
-      "tags"     : "Growth and Inspiration",
-      "url"      : "/embracing-the-journey-of-growth/",
-      "date"     : "Mar 26, 2024",
-      "image"    : ""
-    } ,
-  
-    {
       "title"    : "Modelling Gig for a Supercuts, Princeton",
       "category" : "",
       "tags"     : "Fashion and Work",
@@ -52,6 +43,15 @@
       "url"      : "/A-journey-of-a-thousand-leagues-begins-beneath-one-s-feet/",
       "date"     : "Nov 9, 2018",
       "image"    : "/images/06.jpg"
+    } ,
+  
+    {
+      "title"    : "Embracing the Journey of Growth",
+      "category" : "",
+      "tags"     : "Growth and Inspiration",
+      "url"      : "/embracing-the-journey-of-growth/",
+      "date"     : "Nov 8, 2018",
+      "image"    : ""
     } ,
   
     {

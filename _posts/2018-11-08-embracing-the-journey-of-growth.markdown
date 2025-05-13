@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  Embracing the Journey of Growth
-date:   2024-03-26 15:01:35 +0300
+date:   2018-11-08 15:01:35 +0300
 video:  'https://www.youtube.com/embed/Um-15gm9eaA'
 tags:   [Growth, Inspiration]
 ---
